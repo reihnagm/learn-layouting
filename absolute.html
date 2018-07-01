@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        .box  {
+          position: relative;
+          background: red;
+          width: 90%;
+          height: 650px;
+          margin: 0 auto;
+        }
+
+        .relative {
+          position: relative;
+        }
+
+        #left {
+          position: absolute;
+          background: yellow;
+          padding: 10px;
+          width: 50px;
+          height: 50px;
+          top: 0;
+          left: 0;
+        }
+
+        #left-center {
+          position: absolute;
+          background: yellow;
+          padding: 10px;
+          width: 50px;
+          height: 50px;
+          top: 50%;
+          left: 0;
+        }
+
+        #right {
+          position: absolute;
+          top: 0;
+          right: 0;
+          background: yellow;
+          padding: 10px;
+          width: 50px;
+          height: 50px;
+        }
+
+        #right-center {
+          position: absolute;
+          top: 50%;
+          right: 0;
+          background: yellow;
+          padding: 10px;
+          width: 50px;
+          height: 50px;
+        }
+
+
+        #top {
+          position: absolute;
+          top: 0;
+          left: 50%;
+          background: yellow;
+          padding: 10px;
+          width: 50px;
+          height: 50px;
+        }
+
+
+        #bottom-center {
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          background: yellow;
+          padding: 10px;
+          width: 50px;
+          height: 50px;
+        }
+
+        #bottom-left {
+          position: absolute;
+          bottom: 0;
+          background: yellow;
+          padding: 10px;
+          width: 50px;
+          height: 50px;
+        }
+
+        #bottom-right {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          background: yellow;
+          padding: 10px;
+          width: 50px;
+          height: 50px;
+        }
+
+        #center {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          background: yellow;
+          width: 50px;
+          height: 50px;
+        }
+
+    </style>
+  </head>
+  <body>
+      <div class="box">
+        <p id="left">Left</p>
+        <p id="left-center">Left Center</p>
+        <p id="right-center">Right Center</p>
+        <p id="right">Right</p>
+        <p id="top">Top</p>
+        <p id="center">Center</p>
+        <p id="bottom-left">Bottom Left</p>
+        <p id="bottom-right">Bottom Right</p>
+        <p id="bottom-center">Bottom Center</p>
+      </div>
+  </body>
+</html>
